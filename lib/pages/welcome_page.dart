@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import '../services/unsplash_service.dart';
-import 'home_page.dart';
+import 'login_page.dart';
 
 class WelcomePage extends StatefulWidget {
   final VoidCallback onThemeToggle;
@@ -118,7 +118,7 @@ class _WelcomePageState extends State<WelcomePage> {
                   onPressed: () {
                     Navigator.of(context).pushReplacement(
                       MaterialPageRoute(
-                        builder: (context) => HomePage(
+                        builder: (context) => LoginPage(
                           onThemeToggle: widget.onThemeToggle,
                           isDarkMode: widget.isDarkMode,
                         ),

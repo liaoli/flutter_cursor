@@ -89,6 +89,14 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.0.8"
+  extended_keyboard:
+    dependency: "direct main"
+    description:
+      name: extended_keyboard
+      sha256: "80bd60e2c40a799590ea50ace9fa2e3ca1d9bfeaf9b7d2461797235da6666bb8"
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.0.3"
   fake_async:
     dependency: transitive
     description:
